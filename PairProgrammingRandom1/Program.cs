@@ -11,9 +11,9 @@ namespace ejerciciosMetodos
         static void Main(string[] args)
         {
             String[] alum1 =
-                {"German","Endika","Lorena","Jon","Hector","Peio","David","Amaia","Forever alone"};
+                {"Mikel","Victor","Zohartze","Tirso","Lyrisse","Holly","Amaya","Iker Vázquez","Iker Rincón", "Daniel"};
             String[] alum2 =
-                {"Igone","Natalia","Bertran","Carol","Unai","Miguel","Pilar","Nicolas","Alfredo"};
+                {"David","Rodrigo","Xabier","Iker Lougedo","Santiago","Aritz","Ibon","Maximiliano","Eduardo", "Ainara"};
 
             List<String> alumnos1 = new List<String>(alum1);
             List<String> alumnos2 = new List<String>(alum2);
@@ -26,7 +26,7 @@ namespace ejerciciosMetodos
         {
             Random rndm = new Random();
             int numRandom1 = 0, numRandom2 = 0;
-            int capacidad = 9;
+            int capacidad = 10;
             while (capacidad > 0)
             {
                 numRandom1 = rndm.Next(0, capacidad);
